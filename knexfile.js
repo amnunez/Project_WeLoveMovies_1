@@ -1,6 +1,6 @@
 const path = require("path");
 require("dotenv").config();
-if (process.env.USER) require("dotenv").config();
+//if (process.env.USER) require("dotenv").config();
 
 const {
   DATABASE_URL = "postgres://kdubqzuv:PrcDMlM_eyNgAkmkWXkXHZjya87D1aUl@ruby.db.elephantsql.com:5432/kdubqzuv",
